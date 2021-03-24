@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\denni\\PoV\\PoV.csproj": {}
+    "C:\\Users\\denni\\PoV\\PoV-CrM\\PoV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\denni\\PoV\\PoV.csproj": {
+    "C:\\Users\\denni\\PoV\\PoV-CrM\\PoV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\denni\\PoV\\PoV.csproj",
+        "projectUniqueName": "C:\\Users\\denni\\PoV\\PoV-CrM\\PoV.csproj",
         "projectName": "PoV",
-        "projectPath": "C:\\Users\\denni\\PoV\\PoV.csproj",
+        "projectPath": "C:\\Users\\denni\\PoV\\PoV-CrM\\PoV.csproj",
         "packagesPath": "C:\\Users\\denni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\denni\\PoV\\obj\\",
+        "outputPath": "C:\\Users\\denni\\PoV\\PoV-CrM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,11 +58,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[3.1.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [

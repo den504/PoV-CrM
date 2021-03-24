@@ -15,7 +15,7 @@ namespace PoV.Models
 
         public string email { get; set; }
 
-        public int contact { get; set; }
+        public string contact { get; set; }
 
         public int CompanyId { get; set; }
 
